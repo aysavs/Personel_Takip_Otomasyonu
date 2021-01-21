@@ -16,7 +16,7 @@ namespace Personel_Takip_Otomasyonu
         {
             InitializeComponent();
         }
-        OracleConnection connection = new OracleConnection("User Id=SYSTEM;Password=,,,,;Data Source=l:1521/XEPDB1;");
+        OracleConnection connection = new OracleConnection("User Id=SYSTEM;Password=,,,,;Data Source=localhost:1521/XEPDB1;");
 
         
         public static string tcno, adi, soyadi, yetki;
